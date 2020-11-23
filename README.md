@@ -14,6 +14,24 @@ What is it?
 * Ubuntu headless - basically a terminal, no GUI (this is the one we will use)
     * faster
     * more secure
-    * lighter 
+    * lighter
 
 ## Main Commands
+
+* `vagrant init`
+* `vagrant init <box>` search for boxes
+* `vagrant up`
+* `vagrant destroy` - delete a box
+
+## Task 1
+* vagrant up with ubuntu xenial64
+* Vagrant destroy
+* Delete your vagrantfile
+Use vagrant init to create a vagrantfile with centos 7
+* vagrant up again
+* Vagrant destroy again
+
+## Task 2
+* Create a vagrant box with ubuntu version 18.04
+* find the commands to ssh into machine
+* Create a README.md file inside the virtual machine and write your name and favourite movie.
