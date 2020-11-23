@@ -13,5 +13,8 @@ Vagrant.configure("2") do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "ubuntu/bionic64"
+  config.vm.network "private_network",ip:"192.168.10.2"
+
+  config.vm.hostname = "www.testing.de"
 
 end
